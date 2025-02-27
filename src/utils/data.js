@@ -4,7 +4,7 @@ export const personalInfo = {
     location: "Matara, Sri Lanka",
     email: "mhdyasir132@gmail.com",
     phone: "+94 76 36 39 741",
-    image: `${process.env.PUBLIC_URL}/assets/profile.jpg`,
+    image: "/yasir-portfolio/assets/profile.jpg",
     bio: "Detail-oriented UI/UX Designer with frontend development background and a passion for creating intuitive, user-centered experiences. Combines strong visual design skills with technical knowledge to develop responsive interfaces that balance aesthetics and functionality."
   };
   
@@ -60,7 +60,7 @@ export const personalInfo = {
       title: "Hanover Pizza POS System",
       type: "Web App",
       description: "A complete point-of-sale system with intuitive UI for a pizza restaurant, featuring cohesive branding with a distinctive color scheme and user-friendly interfaces for menu navigation, order management, and inventory control.",
-      image: `${process.env.PUBLIC_URL}/assets/projects/hanover-pizza.png`,
+      image: "/yasir-portfolio/assets/projects/hanover-pizza.png",
       link: "https://www.behance.net/gallery/219955129/Pizza-POS-Billing-System",
       tags: ["UI/UX Design", "Web Development", "POS System"]
     },
@@ -68,7 +68,7 @@ export const personalInfo = {
       title: "Homestead Furniture Shop",
       type: "Web App",
       description: "Attractive UI for a furniture shop featuring cohesive branding with a distinctive color scheme and user-friendly interfaces for collections and catalog.",
-      image: `${process.env.PUBLIC_URL}/assets/projects/homestead-furniture.png`,
+      image: "/yasir-portfolio/assets/projects/homestead-furniture.png",
       link: "https://www.behance.net/gallery/220061447/Homestead-Furniture-Shop-Website-Design",
       tags: ["UI/UX Design", "Web Development", "E-commerce"]
     }

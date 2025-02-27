@@ -39,7 +39,7 @@ const Navbar = ({ theme, toggleTheme }) => {
     <Nav $scrolled={scrolled}>
       <NavContainer>
         <Logo1 to="/">
-          <img src="/assets/logo1.png" alt="Mohamed Yasir Logo" height="40" />
+          <img src={"/yasir-portfolio/assets/logo1.png"} alt="Mohamed Yasir Logo" height="40" />
         </Logo1>
         
         <NavLinks>
